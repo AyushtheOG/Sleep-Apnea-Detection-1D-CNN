@@ -45,3 +45,6 @@ Two 1D Convolutional Layers (32 and 64 filters) with ReLU activation for feature
 MaxPooling1D layers to reduce spatial dimensions.
 
 Flatten and Dense layers (64 units) with a 50% Dropout rate to prevent overfitting.
+
+Acknowledgements
+AI assistance was used solely for writing the data parsing and preprocessing scripts to extract 30-second windows and build the dataset. The deep learning architecture (1D CNN), LOOCV implementation, and visualizations were developed independently.
